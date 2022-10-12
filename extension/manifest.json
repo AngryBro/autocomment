@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "АвтоКоммент",
+    "version": "1.0",
+    "description": "Автоматические комментарии на интенсив",
+    "content_scripts": [
+       {
+           "matches": ["https://ri-ege.ru/lk/gk/admin/*"],
+           "js": ["index.js"],
+           "css": ["css/main.8e38a7b6.css"]
+       }
+    ]
+}
